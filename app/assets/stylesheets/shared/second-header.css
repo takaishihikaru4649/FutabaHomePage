@@ -1,0 +1,61 @@
+.title {
+  height: 350px;
+  width: 700px;
+}
+
+.top-img {
+  height: 200px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.title-contents {
+  border-radius: 3px 30px;
+  border-top: 6px rgb(255, 139, 139) double;
+  border-bottom: 6px rgb(255, 139, 139) double;
+  border-left: 2px rgb(255, 139, 139) solid;
+  border-right: 2px rgb(255, 139, 139) solid;
+  margin: 5px;
+}
+
+.title-content {
+  color: red;
+  font-size: 25px;
+  font-weight: 900;
+  border-bottom: 3px double red;
+  margin: 10px 5px 0 15px;
+  display: inline-block;
+}
+
+.title-text {
+  color: black;
+  font-size: 18px;
+  padding: 0 40px;
+  margin-bottom: 10px;
+}
+
+/* ナビゲーション */
+.header-nav {
+  height: 100px;
+  width: 100%;
+  border-top: 1px solid red;
+  border-bottom: 1px solid red;
+}
+
+.nav-btns {
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-btn {
+  font-size: 20px;
+  font-weight: 900;
+  padding: 15px 20px;
+  border: 3px solid red;
+  border-radius: 5px;
+  margin: 3px;
+}
