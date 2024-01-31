@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  root to: "notices#index"
-  resources :notices, only: [:index]
+  #root to: "posts/index"
+  resources :posts, only: [:index]
 end
