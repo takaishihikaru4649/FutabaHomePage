@@ -1,0 +1,14 @@
+/* 全体 */
+body {
+  max-width: 700px;
+  background-color: white;
+  font-family: serif, "MS P明朝", "ヒラギノ明朝", "Times";
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* メイン */
