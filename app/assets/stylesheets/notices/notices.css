@@ -1,7 +1,7 @@
 /* 全体 */
 body {
-  max-width: 700px;
   background-color: white;
+  max-width: 700px;
   font-family: serif, "MS P明朝", "ヒラギノ明朝", "Times";
   margin: 0 auto;
 }
@@ -10,5 +10,37 @@ a {
   text-decoration: none;
 }
 
+@media (max-width: 767.98px) {
+  body {
+    width: 400px;
+  }
+}
+
 
 /* メイン */
+.main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.notice-wrap {
+  border-top: 6px dotted #fadcdb;
+  border-bottom: 6px dotted #fadcdb;
+  margin: 50px 0;
+}
+
+.notice-text {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.notice-text p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.notices {
+  margin: 50px 0;
+  background-color: aqua;
+}
+

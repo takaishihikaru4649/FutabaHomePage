@@ -1,0 +1,100 @@
+.calendar-box {
+  width: 100%;
+  display: grid;
+  place-items: center;
+  margin: 50px 0;
+}
+
+.business-days {
+  width: 70%;
+  padding: 20px 0;
+  border-top: 6px dotted #fadcdb;
+  border-bottom: 6px dotted #fadcdb;
+  margin-bottom: 30px;
+}
+
+.business-table {
+  margin: 0 auto;
+}
+
+.business-table td {
+  font-size: 20px;
+  font-weight: bolder;
+  padding: 0 15px;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* カレンダー */
+.calendar-container {
+  padding: 20px 50px;
+  border-bottom: 6px dotted #fadcdb;
+}
+
+.month {
+  color: rgb(161, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.calendar-wrap {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767.98px) {
+  .calendar-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.calendar {
+  width: 450px;
+  border-collapse: collapse;
+}
+
+.calendar th,
+.calendar td {
+  border: 1px solid #000;
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.calendar th {
+  padding: 6px 10px;
+}
+
+@media (max-width: 767.98px) {
+  .calendar th,
+  .calendar td {
+    padding: 6px;
+    font-size: 12px;
+  }
+  .calendar th {
+    padding: 3px 6px;
+  }
+}
+
+.calendar .sun {
+  color: red;
+}
+
+.calendar .sat {
+  color: blue;
+}
+
+.calendar .mute {
+  color: #aaa;
+}
+
+.calendar .off {
+  background-color: #fadcdb;
+}
+
